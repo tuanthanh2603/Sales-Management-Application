@@ -58,7 +58,6 @@ class QuanLy extends StatelessWidget {
           ),
         ),
 
-       
         Padding(
           padding: EdgeInsetsDirectional.fromSTEB(5, 5, 5, 5),
           child: Row(
@@ -82,9 +81,9 @@ class QuanLy extends StatelessWidget {
                               EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(8),
-                            child: Image.network(
-                              'https://picsum.photos/seed/876/600',
-                              height: 50,
+                            child: Image.asset(
+                              'assets/icons/buy_icon.png',
+                              height: 40,
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -118,9 +117,9 @@ class QuanLy extends StatelessWidget {
                               EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(8),
-                            child: Image.network(
-                              'https://picsum.photos/seed/876/600',
-                              height: 50,
+                            child: Image.asset(
+                              'assets/icons/product_icon.png',
+                              height: 40,
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -154,9 +153,9 @@ class QuanLy extends StatelessWidget {
                               EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(8),
-                            child: Image.network(
-                              'https://picsum.photos/seed/876/600',
-                              height: 50,
+                            child: Image.asset(
+                              'assets/icons/order_icon.png',
+                              height: 40,
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -177,126 +176,223 @@ class QuanLy extends StatelessWidget {
         ),
 
         // Generated code for this Row Widget...
-Padding(
-  padding: EdgeInsetsDirectional.fromSTEB(5, 5, 5, 5),
-  child: Row(
-    mainAxisSize: MainAxisSize.max,
-    children: [
-      Expanded(
-        child: Padding(
+        Padding(
           padding: EdgeInsetsDirectional.fromSTEB(5, 5, 5, 5),
-          child: Card(
-            clipBehavior: Clip.antiAliasWithSaveLayer,
-            
-            elevation: 4,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Column(
+          child: Row(
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(5, 5, 5, 5),
+                  child: Card(
+                    clipBehavior: Clip.antiAliasWithSaveLayer,
+                    elevation: 4,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding:
+                              EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(8),
+                            child: Image.asset(
+                              'assets/icons/chart_icon.png',
+                              height: 40,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                          child: Text(
+                            'Báo cáo',
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(5, 5, 5, 5),
+                  child: Card(
+                    clipBehavior: Clip.antiAliasWithSaveLayer,
+                    elevation: 4,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding:
+                              EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(8),
+                            child: Image.asset(
+                              'assets/icons/reduce_icon.png',
+                              height: 40,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                          child: Text(
+                            'Thu chi',
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(5, 5, 5, 5),
+                  child: Card(
+                    clipBehavior: Clip.antiAliasWithSaveLayer,
+                    elevation: 4,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding:
+                              EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(8),
+                            child: Image.asset(
+                              'assets/icons/new_icon.png',
+                              height: 40,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
+                          child: Text(
+                            'Thêm tính năng',
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+        // Generated code for this Column Widget...
+        Column(
+          mainAxisSize: MainAxisSize.max,
+          children: [
+            Row(
               mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
+                  padding: EdgeInsetsDirectional.fromSTEB(13, 13, 13, 13),
                   child: ClipRRect(
-                    borderRadius: BorderRadius.circular(8),
-                    child: Image.asset(
-                      'assets/icons/chart_icon.png',
+                    borderRadius: BorderRadius.circular(25),
+                    child: Image.network(
+                      'https://picsum.photos/seed/565/600',
+                      width: 40,
                       height: 40,
                       fit: BoxFit.cover,
                     ),
                   ),
                 ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
-                  child: Text(
-                    'Báo cáo',
-                    
+                Expanded(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(0, 5, 210, 0),
+                        child: Text(
+                          'Bạn cần hỗ trợ?',
+                          style: TextStyle( 
+                            fontSize: 15,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                      ),
+                      Opacity(
+                        opacity: 0.7,
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(0, 5, 35, 0),
+                          child: Text(
+                            'Hướng dẫn, giải đáp thắc mắc hoặc báo sự cố',
+                            style: TextStyle( 
+                              fontSize: 13
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],
             ),
-          ),
-        ),
-      ),
-      Expanded(
-        child: Padding(
-          padding: EdgeInsetsDirectional.fromSTEB(5, 5, 5, 5),
-          child: Card(
-            clipBehavior: Clip.antiAliasWithSaveLayer,
-            
-            elevation: 4,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Column(
+            Row(
               mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(8),
-                    child: Image.asset(
-                      'assets/icons/reduce_icon.png',
-                      height: 40,
-                      fit: BoxFit.cover,
+                Expanded(
+                  child: Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                    child: ElevatedButton(
+                      onPressed: () {
+                        print('Button pressed ...');
+                      },
+                      style: ButtonStyle(
+                          // Các thuộc tính khác của nút
+                          ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          'Messenger', // Văn bản của nút
+                          style: TextStyle(
+                              // Các thuộc tính chữ của nút
+                              ),
+                        ),
+                      ),
                     ),
                   ),
                 ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
-                  child: Text(
-                    'Thu chi',
-                    
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-      Expanded(
-        child: Padding(
-          padding: EdgeInsetsDirectional.fromSTEB(5, 5, 5, 5),
-          child: Card(
-            clipBehavior: Clip.antiAliasWithSaveLayer,
-            
-            elevation: 4,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Column(
-              mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(8),
-                    child: Image.asset(
-                      'assets/icons/new_icon.png',
-                      height: 40,
-                      fit: BoxFit.cover,
+                Expanded(
+                  child: Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                    child: ElevatedButton(
+                      onPressed: () {
+                        print('Button pressed ...');
+                      },
+                      style: ButtonStyle(
+                          // Các thuộc tính khác của nút
+                          ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          'Zalo', // Văn bản của nút
+                          style: TextStyle(
+                              // Các thuộc tính chữ của nút
+                              ),
+                        ),
+                      ),
                     ),
                   ),
                 ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
-                  child: Text(
-                    'Thêm tính năng',
-                    
-                  ),
-                ),
               ],
             ),
-          ),
-        ),
-      ),
-    ],
-  ),
-)
-
+          ],
+        )
       ],
     );
   }

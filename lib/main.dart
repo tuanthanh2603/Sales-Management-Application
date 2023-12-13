@@ -6,9 +6,7 @@ import 'views/screen/quan_ly.dart';
 import 'views/screen/don_hang.dart';
 
 
-import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
+
 
 void main() {
   runApp(const MyApp());
